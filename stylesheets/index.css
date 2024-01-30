@@ -6,14 +6,23 @@ body{
     margin: 0px;
     background-color: rgb(52, 52, 106);
     height: 50px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-h1{
+.name-header{
     margin-top: 0px;
     margin-bottom: 0px;
-    text-align: center;
     color: whitesmoke;
     line-height: 45px;
+    display: inline;
+    margin-right: 10px;
+}
+.link-icon{
+    filter: invert(100%);
+}
+.link-icon:hover{
+    cursor: pointer;
 }
 h2{
     margin-top: 5px;
