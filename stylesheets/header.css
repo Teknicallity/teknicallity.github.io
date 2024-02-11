@@ -2,14 +2,34 @@
     margin: 0px;
     background-color: rgb(52, 52, 106);
     height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     margin-bottom: 20px;
+    color: whitesmoke;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    margin: 0px 10px;
+}
+.left-header{
+    flex-grow: 0.9;
+}
+.home{
+    display: inline;
+    color: inherit;
+}
+.center-header {
+    flex-grow: 1;
+    text-align: center;
+}
+.right-header {
+    flex-grow: 1;
 }
 .linkedin-header{
     text-decoration: none;
-    color: whitesmoke;
+    color: inherit;
 }
 .name-header{
     margin-top: 0px;
