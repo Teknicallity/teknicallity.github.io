@@ -37,8 +37,10 @@ ul{
     display: block;
 }
 .classes-taken,
-.projects{
+.projects,
+.project-link{
     vertical-align: text-top;
     display: inline-block;
     width: 49%;
+    color: black;
 }
