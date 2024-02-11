@@ -1,0 +1,30 @@
+.main-header{
+    margin: 0px;
+    background-color: rgb(52, 52, 106);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.linkedin-header{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.name-header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    line-height: 45px;
+    display: inline;
+    margin-right: 10px;
+}
+.linkedin-icon{
+    color: inherit;
+}
+
+@media (max-width: 767px) {
+    .main-header {
+        height: 80px;
+    }
+}

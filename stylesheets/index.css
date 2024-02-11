@@ -18,12 +18,10 @@ body{
     display: inline;
     margin-right: 10px;
 }
-.link-icon{
-    filter: invert(100%);
+.linkedin-icon{
+    color: white;
 }
-.link-icon:hover{
-    cursor: pointer;
-}
+
 h2{
     margin-top: 5px;
     margin-bottom: 5px;
